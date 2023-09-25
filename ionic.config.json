@@ -1,0 +1,7 @@
+{
+  "name": "sqlApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
