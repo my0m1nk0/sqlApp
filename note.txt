@@ -1,0 +1,10 @@
+ionic start sqlApp blank --type angular
+cd ./sqlApp
+
+npm install @capacitor/splash-screen
+npm install @capacitor-community/sqlite
+ionic g service services/database
+
+ionic build
+ionic cap add ios
+ionic cap add android
